@@ -7,12 +7,14 @@ sources:
     tables:
       - name: orders
         columns:
+        #primary_key: o_orderkey
           - name: o_orderkey
             tests:
               - unique
               - not_null
       - name: lineitem
         columns:
+        #foreign_key: l_orderkey
           - name: l_orderkey
             tests:
               - relationships:
