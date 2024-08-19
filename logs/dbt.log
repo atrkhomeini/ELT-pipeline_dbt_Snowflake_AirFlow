@@ -28,3 +28,27 @@ Happy modeling!
 [0m02:17:40.908511 [debug] [MainThread]: Command `dbt init` succeeded at 02:17:40.901997 after 172.13 seconds
 [0m02:17:40.908511 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026F24959690>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026F1E335F90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026F1E2B4990>]}
 [0m02:17:40.908511 [debug] [MainThread]: Flushing usage events
+[0m10:28:33.269056 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000211D54FF850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000211D54FDA50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000211D550A590>]}
+
+
+============================== 10:28:33.285450 | 44a53dc7-7fe3-4edf-81cc-855a59859f34 ==============================
+[0m10:28:33.285450 [info ] [MainThread]: Running with dbt=1.8.5
+[0m10:28:33.285553 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\atrke\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt run', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m10:28:33.285553 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path D:\build an ELT Pipeline in 1 Hour (dbt, Snowflake, Airflow)\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m10:28:33.292677 [debug] [MainThread]: Command `dbt run` failed at 10:28:33.292677 after 0.18 seconds
+[0m10:28:33.292677 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000211D54A59D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000211CED94C10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000211D549B150>]}
+[0m10:28:33.292677 [debug] [MainThread]: Flushing usage events
+[0m11:10:28.877080 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8D57A7850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8D57A7C90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8D57A74D0>]}
+
+
+============================== 11:10:28.889611 | 64dbff97-cb7a-4e81-8f47-7f9691ae3112 ==============================
+[0m11:10:28.889611 [info ] [MainThread]: Running with dbt=1.8.5
+[0m11:10:28.889611 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\atrke\\.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt init', 'send_anonymous_usage_stats': 'True'}
+[0m11:10:41.121836 [info ] [MainThread]: A project called data_pipeline already exists here.
+[0m11:10:41.121836 [debug] [MainThread]: Command `dbt init` succeeded at 11:10:41.121836 after 12.47 seconds
+[0m11:10:41.130088 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8D5755890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8CF106150>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8D549A010>]}
+[0m11:10:41.130088 [debug] [MainThread]: Flushing usage events
